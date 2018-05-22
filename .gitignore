@@ -1,0 +1,89 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Images
+*.jpg
+*.png
+*.pkl
+*.pklz
+*.cpickle
+*.pickle
+*.hdf5
+*.log
+*.csv
+*.sh
+
+# Python files
+*.ipynb
+*.pyc
+!test_HoGs.ipynb
+!test_classifier_PC.ipynb
+!test_evaluation.ipynb
+!FROC_analysis.ipynb
+!Keras-result_explorer.ipynb
+!SegNet_metacentrum.ipynb
+!Keras_evaluation.ipynb
+!kerasdata.ipynb
+
+
+# Some folders
+Soccer_ball_files/*
+CTs/bounding_boxes/old/*
+*Z-OLD*
+*classification/results/*
+.ipynb_checkpoints/*
+bounding_boxes*
+CTs/bounding_boxes/*
+extractor_test_results/*
+Ukázky/*
+
+classification/evaluation/*
+classification/training_data/*
+classificaion/Keras/*
+*experiments*
+classificaion/Keras/ROC_data/**
